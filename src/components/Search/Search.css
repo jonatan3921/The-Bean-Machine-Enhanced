@@ -1,0 +1,53 @@
+.search-results-item {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F2EF;
+    z-index: 3;
+
+    border-bottom: 1px solid black;
+}
+
+.search-results-item img {
+    max-width: 20%;
+}
+
+.homepage-container .search-results-item p {
+    font-size: 16px;
+}
+
+.results-btn {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5678;
+    padding: 10px;
+}
+
+.results-btn > :nth-child(1) {
+    color: white;
+    text-decoration: none;
+}
+
+.results-page .search-results-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F2EF;
+    z-index: 3;
+
+    border-bottom: 1px solid black;
+    border-top: none;
+}
+
+/* Phone Display Setting */
+@media screen and (max-width: 600px) {
+    .search-results-item {
+        width: 68.2%;
+    }
+}
+

@@ -1,0 +1,25 @@
+.footer-container {
+    color: white;
+    background-color: black;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p {
+    margin-bottom: 15px;
+}
+
+.footer-container a {
+    color: white;
+}
+
+.icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+

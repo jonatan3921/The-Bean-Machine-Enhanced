@@ -1,0 +1,88 @@
+.results-page {
+    margin: 72px 8%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results-page h1 {
+    font-size: 64px;
+    margin-bottom: 48px;
+}
+
+/* Searching container of results page */
+.results-page .searching-container2 {
+    width: 70%;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+
+.results-page .searching-container2 > :nth-child(1) {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F6F2EF;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.results-page .searching-container2 > :nth-child(1)::placeholder {
+    font-size: 18px;
+}
+
+.results-page .search-results-container2 {
+    animation: input 0.5s ease 0s 1 normal forwards;
+    background-color: none;
+    height: 255px;
+    left: 0;
+    overflow: scroll;
+    position: absolute;
+    top: 49px;
+    width: 92.6%;
+    z-index: 2;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.arrow-results-btn {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FF5678;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Results of coffess */
+.results-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Tablet Display Setting */
+@media screen and (max-width: 1000px) {
+    .results-page .searching-container2 {
+        width: 100%;
+    }
+    .results-page .search-results-container2 {
+        width: 89.56%;
+        height: 150px;
+    }
+}
+
+/* Phone Display Setting */
+@media screen and (max-width: 600px) {
+    .results-page .search-results-container2 {
+        width: 87.3%;
+        height: 125px;
+    }
+}

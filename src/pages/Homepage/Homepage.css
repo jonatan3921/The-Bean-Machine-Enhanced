@@ -1,0 +1,159 @@
+.homepage-container {
+    margin: 20px 8%;
+}
+
+/* Banner Stylinh */
+.banner-container {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1D1C1C;
+}
+
+.banner {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* Searching bar styling */
+
+.homepage-container  .searching-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: relative;
+}
+
+.homepage-container  .searching-container > :nth-child(1) {
+    width: 70%;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F6F2EF;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.homepage-container  .searching-container > :nth-child(1)::placeholder {
+    font-size: 18px;
+}
+
+.homepage-container .search-results-container {
+    animation: input 0.5s ease 0s 1 normal forwards;
+    background-color: none;
+    height: 125px;
+    left: 0;
+    overflow: scroll;
+    position: absolute;
+    top: 47px;
+    width: 100%;
+    z-index: 2;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.arrow-btn {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FF5678;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Img Banner Styling */
+aside {
+    flex-basis: 60%;
+}
+
+aside img {
+    width: 100%;
+    height: 100%;
+}
+
+/* About Section Styling */
+.about-section {
+    height: 300px;
+    font-size: 20px;
+    margin: 60px 0;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #1D1C1c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.about-section h2 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.address {
+    color: #FF5678;
+    border-bottom: 1px solid #FF5678;
+    padding-bottom: 0;
+}
+
+/* Special Offer Section Styling */
+.special-offer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 80px 0;
+}
+
+.special-offer-section h2 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+
+/* Table Display Setting */
+@media screen and (max-width: 1000px) {
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner {
+        align-items: center;
+    }
+    .banner h1 {
+        text-align: center;
+    }
+
+    /* Searching Bar Styling */
+    .homepage-container  .searching-container {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .homepage-container  .searching-container > :nth-child(1) {
+        width: 100%;
+    }
+    .homepage-container .search-results-container {
+        width: 128%;
+    }
+
+    /* Special Offer Section Styling */
+    .special-offer-section {
+        align-items: center;
+    }
+    .special-offer-section h2 {
+        margin-bottom: 56px;
+    }
+}

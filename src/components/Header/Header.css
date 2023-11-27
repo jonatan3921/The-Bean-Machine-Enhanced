@@ -1,0 +1,102 @@
+/* Takes care of the whole header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 8%;
+}
+/* Styling for the logo of the page */
+.logo {
+    text-decoration: none;
+    color: #FF5678;
+    font-weight: 900;
+    font-size: 14px;
+}
+/* Styling the links container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 30%;
+    min-width: 25%;
+}
+
+.header-links {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.login-btn {
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+
+    padding: 8px 25px;
+    background-color: #FF5678;
+}
+
+.login-btn :nth-child(1) {
+    color: white;
+    text-decoration: none;
+}
+
+.user-container {
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart {
+    color: #FF5678;
+    cursor: pointer;
+}
+
+.cart-items-amount {
+    text-align: center;
+    color: white;
+    background-color: #FF5678;
+    height: fit-content;
+    width: 15px;
+    font-size: 8px;
+    border-radius: 45%;
+    padding: 2px;
+}
+
+.username {
+    text-decoration: none;
+    color: #FF5678;
+    font-weight: 900;
+}
+
+
+
+/* Table Display Setting */
+@media screen and (max-width: 1000px) {
+    nav {
+        width: 60%;
+        justify-content: space-around;
+    }
+}
+
+/* Phone Display Setting */
+@media screen and (max-width: 600px) {
+    nav {
+        width: 95%;
+    }
+
+    .user-container {
+        width: 35%;
+    }
+}

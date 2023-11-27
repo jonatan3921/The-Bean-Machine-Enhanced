@@ -1,0 +1,63 @@
+.coffee-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+.box-offer {
+    width: 370px;
+    height: 400px;
+    background-color: #F6F2EF;
+    border-radius: 10px;
+    margin-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-offer img {
+    width: 75%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.box-offer p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.box-offer button {
+    width: 45%;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 0;
+    padding: 10px 25px;
+    background-color: #FF5678;
+
+}
+
+.box-offer button :nth-child(1) {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Tablet Display Setting */
+@media screen and (max-width: 1000px) {
+    .coffee-card-container {
+        justify-content: center;
+    }
+}
