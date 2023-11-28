@@ -49,14 +49,34 @@
     cursor: pointer;
 }
 
+/* Tablet Display Setting */
 @media screen and (max-width: 1000px) {
     .account-container {
         width: fit-content;
     }
 }
 
+/* Phone Display Setting */
 @media screen and (max-width: 600px) {
     .account-container {
         width: 75%;
     }
 }
+
+/* Small Phone Display Setting */
+@media screen and (max-width: 400px) {
+    .account-page {
+        min-height: 40vh;
+        background-position: 0px -10px;
+    }
+
+    .account-container p {
+        font-size: 20px;
+    }
+
+    .account-container button {
+        width: 75%;
+        font-size: 18px;
+    }
+}
+

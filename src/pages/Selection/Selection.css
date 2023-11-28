@@ -133,13 +133,26 @@
 }
 
 /* Phone Display Settings */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    .selection-heading h2 {
+        font-size: 24px;
+    }
+
+    .sort-container p {
+        display: none;
+    }
+
+    .sort {
+        width: 100%;
+    }
+
     .coffee-cards-container {
         justify-content: center;
+        margin-bottom: 0;
     }
 
     .coffee-card {
-        width: 70%;
+        width: 100%;
         height: 400px;
     }
 }

@@ -26,6 +26,8 @@ function Header() {
   return (
     <div className='header-container'>
         <Link className='logo' to={'/'}><h3>The Bean Machine</h3></Link>
+        <label className='burger' htmlFor='menuchk'>&#9776;</label>
+        <input type='checkbox' id='menuchk'/>
         <nav>
             <Link className='header-links' to={'/about'}>About</Link>
             <Link className='header-links' to={'/selection'}>Selection</Link>

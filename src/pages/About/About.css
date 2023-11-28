@@ -184,5 +184,47 @@
     }
 }
 
+/* Small Phone Display Setting */
+@media screen and (max-width: 400px) {
+    .banner-heading h1 {
+        font-size: 56px;
+    }
+
+    .quick-description h2 {
+        font-size: 32px;
+    }
+
+    .quick-description p {
+        font-size: 16px;
+    }
+
+    .about-container img {
+        width: 75%;
+    }
+
+    /* Coffee Options Description Styling */
+    .coffee-beans-description {
+        padding-bottom: 0;
+    }
+    
+    .description h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .Brazil-description h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .Brazil-description p {
+        font-size: 14px;
+    }
+}
+
 
 

@@ -60,7 +60,7 @@
     left: 0;
     overflow: scroll;
     position: absolute;
-    top: 47px;
+    top: 45px;
     width: 100%;
     z-index: 2;
     border-radius: 0px 0px 15px 15px;
@@ -155,5 +155,59 @@ aside img {
     }
     .special-offer-section h2 {
         margin-bottom: 56px;
+    }
+}
+
+
+/* Small Phone Display Setting */
+@media screen and (max-width: 400px) {
+    /* Banner Styling */
+    .banner h1 {
+        font-size: 56px;
+    }
+
+    .banner h2 {
+        font-size: 32px;
+    }
+
+    /* Searching Container Styling */
+    .homepage-container  .searching-container > :nth-child(1) {
+        height: 56px;
+    }
+
+    .homepage-container  .searching-container > :nth-child(1)::placeholder {
+        font-size: 14px;
+    }
+
+    .homepage-container .search-results-container {
+        width: 100%;
+    }
+
+    .arrow-btn {
+        height: 45px;
+        width: 45px;
+    }
+
+    /* About Section Styling */
+    .about-section {
+        height: 325px;
+    }
+
+    .about-section h2 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    /* Special Offers Section Styling */
+    .special-offer-section {
+        margin-bottom: 0;
+    }
+
+    .special-offer-section h2 {
+        font-size: 32px;
     }
 }

@@ -31,6 +31,14 @@ nav {
     margin-right: 15px;
 }
 
+.burger {
+    display: none;
+}
+
+#menuchk {
+    display: none;
+}
+
 .login-btn {
     border: none;
     border-radius: 24px;
@@ -90,13 +98,38 @@ nav {
     }
 }
 
+/* Change All the media query for the phone to 500px */
 /* Phone Display Setting */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    .header-container {
+        height: 40px;
+        margin-bottom: 32px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    #menuchk:checked + nav {
+        padding: 10px;
+        background-color: #F6F2EF;
+        border-radius: 14px;
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
     nav {
+        display: none;
         width: 95%;
     }
 
     .user-container {
         width: 35%;
+    }
+
+    .cart-container {
+        width: 20%;
     }
 }
