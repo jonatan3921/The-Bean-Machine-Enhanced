@@ -222,5 +222,12 @@
 
     .title {
         font-size: 12px;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .price {
+        width: 30%;
+        text-align: center;
     }
 }

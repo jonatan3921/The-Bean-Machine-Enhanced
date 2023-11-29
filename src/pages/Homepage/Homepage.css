@@ -180,7 +180,7 @@ aside img {
     }
 
     .homepage-container .search-results-container {
-        width: 100%;
+        display: none;
     }
 
     .arrow-btn {
