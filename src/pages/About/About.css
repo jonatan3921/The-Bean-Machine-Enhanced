@@ -19,6 +19,7 @@
     width: 50%;
     margin-top: 20px;
     font-size: 72px;
+    font-family: 'Lato', sans-serif;
 }
 
 .img-banner {
@@ -44,6 +45,7 @@
 
 .quick-description h2 {
     font-size: 40px;
+    font-family: 'Lato', sans-serif;
 }
 
 .quick-description p {
@@ -87,6 +89,7 @@
 
 .description h2 {
     font-size: 32px;
+    font-family: 'Lato', sans-serif;
 }
 
 .description p {
@@ -117,6 +120,7 @@
 
 .Brazil-description h2 {
     font-size: 32px;
+    font-family: 'Lato', sans-serif;
 }
 
 .Brazil-description p { 

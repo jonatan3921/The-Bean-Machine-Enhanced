@@ -11,6 +11,7 @@
 .selection-heading h2 {
     font-weight: 900;
     font-size: 48px;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Sort Container Styling */
@@ -22,6 +23,7 @@
 .sort-container p {
     font-weight: 700;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
     margin-right: 24px;
 }
 
@@ -31,6 +33,7 @@
     padding: 12px 16px;
 
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
     color: #FF5678;
     background-color: #F6F2EF;
     border: none;
@@ -78,6 +81,7 @@
     width: 75%;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: space-between;
 }
@@ -85,6 +89,7 @@
 .origin {
     width: 75%;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .coffee-card button {
@@ -103,12 +108,14 @@
 .coffee-card button :nth-child(1) {
     color: white;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 .availability {
     width: 35%;
     height: 40px;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
     color: white;
     background-color: #149770;
     border-radius: 32px 0 0 32px;

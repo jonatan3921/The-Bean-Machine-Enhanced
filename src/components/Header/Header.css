@@ -12,6 +12,7 @@
     color: #FF5678;
     font-weight: 900;
     font-size: 14px;
+    font-family: 'Lato', sans-serif;
 }
 /* Styling the links container */
 nav {
@@ -28,6 +29,7 @@ nav {
     text-decoration: none;
     font-weight: 900;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
     margin-right: 15px;
 }
 
@@ -44,6 +46,7 @@ nav {
     border-radius: 24px;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Lato', sans-serif;
 
     padding: 8px 25px;
     background-color: #FF5678;
@@ -86,6 +89,7 @@ nav {
     text-decoration: none;
     color: #FF5678;
     font-weight: 900;
+    font-family: 'Lato', sans-serif;
 }
 
 

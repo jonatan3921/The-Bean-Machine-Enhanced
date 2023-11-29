@@ -45,12 +45,14 @@
     width: 24%;
     color: #FF5678;
     font-weight: 600;
+    font-family: 'Lato', sans-serif;
 }
 
 .price {
     margin: 12px 0;
     color: #FF5678;
     font-weight: 600;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Quantity Styling */
@@ -66,6 +68,11 @@
     -moz-box-shadow: 0px 0px 0px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
 }
+
+.quantity p {
+    font-family: 'Lato', sans-serif;
+}
+
 .quantity select {
     border: none;
     color: #FF5678;
@@ -97,6 +104,7 @@
 
 .total-container h3 {
     font-size: 24px;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Checkout Container */
@@ -133,12 +141,14 @@
     background-color: white;
     font-size: 32px;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
 .modal-content {
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
 .modal-container p {
@@ -149,6 +159,7 @@
 .modal-container p span {
     font-weight: 700;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .modal-container div {
