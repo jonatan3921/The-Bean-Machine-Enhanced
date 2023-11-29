@@ -98,7 +98,7 @@
     }
 
     .results-page .search-results-container2 {
-        width: 82%;
+        display: none;
     }
 
     .arrow-results-btn {
