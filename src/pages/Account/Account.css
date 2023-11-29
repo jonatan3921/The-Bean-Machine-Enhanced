@@ -67,7 +67,7 @@
 @media screen and (max-width: 400px) {
     .account-page {
         min-height: 60vh;
-        background-position: 0px 40px;
+        background-position: 0px -30px;
     }
 
     .account-container p {
