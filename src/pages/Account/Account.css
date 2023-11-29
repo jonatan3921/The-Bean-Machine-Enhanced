@@ -70,13 +70,20 @@
         background-position: 0px -30px;
     }
 
+    .account-container {
+        align-items: flex-start;
+    }
+
     .account-container p {
         font-size: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .account-container button {
         width: 75%;
         font-size: 18px;
+        align-self: center;
     }
 }
 
