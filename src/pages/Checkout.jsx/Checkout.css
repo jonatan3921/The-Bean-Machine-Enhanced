@@ -210,3 +210,17 @@
         width: 45%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .checkout-page {
+        min-height: 60vh;
+    }
+
+    .item {
+        flex-wrap: wrap;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+}

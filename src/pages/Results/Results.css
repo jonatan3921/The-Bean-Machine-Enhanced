@@ -86,3 +86,23 @@
         height: 125px;
     }
 }
+
+/* Small Phone Display Setting */
+@media screen and (max-width: 400px) {
+    .results-page .searching-container2 {
+        align-items: center;
+    }
+
+    .results-page .searching-container2 > :nth-child(1)::placeholder {
+        font-size: 14px;
+    }
+
+    .results-page .search-results-container2 {
+        width: 82%;
+    }
+
+    .arrow-results-btn {
+        height: 48px;
+        width: 48px;
+    }
+}

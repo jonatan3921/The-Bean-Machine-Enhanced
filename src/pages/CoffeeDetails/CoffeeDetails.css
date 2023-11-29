@@ -103,3 +103,51 @@
     text-decoration: none;
 }
 
+
+/* Small Phone Display Setting */
+@media screen and (max-width: 400px) {
+    .coffee-details-page {
+        min-height: 60vh;
+    }
+
+    .coffee-name h2 {
+        font-size: 18px;
+    }
+
+    .coffee-name p {
+        font-size: 14px;
+    }
+
+    .coffee-details-container :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .coffee-details-container :nth-child(4) {
+        font-size: 14px;
+    }
+
+
+    .addToCart-container {
+        justify-content: space-between;
+    }
+    /* Styling for Quantity Box */
+    .quantity-container {
+        padding: 0 6px;
+    }
+
+    .quantity-container p {
+        font-size: 18px;
+    }
+
+    .quantity-container select {
+        font-size: 18px;
+    }
+
+    /* Styling for add to cart button */
+    .addToCart-container button {
+        width: 45%;
+        font-size: 12px;
+        padding: 15px 12px;
+    }
+}
+
