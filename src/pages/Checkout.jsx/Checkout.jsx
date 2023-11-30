@@ -60,7 +60,7 @@ function Checkout() {
             ? cartItems.map(item => (
             <div className='item'>
                 <img className='image' src={item?.imgUrl} alt={item?.name}/>
-                <p className='title'>{item?.name}</p>
+                <Link className='title-link' to={`/coffeedetails/${item?.id}`}><p className='title'>{item?.name}</p></Link>
                 <p className='price'>${item?.price}</p>
 
                 <div className='quantity'>

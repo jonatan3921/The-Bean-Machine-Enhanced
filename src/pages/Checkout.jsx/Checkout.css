@@ -40,9 +40,13 @@
 
 }
 
+.title-link {
+    text-decoration: none;
+    width: 24%;
+}
+
 .title {
     margin: 12px 0;
-    width: 24%;
     color: #FF5678;
     font-weight: 600;
     font-family: 'Lato', sans-serif;

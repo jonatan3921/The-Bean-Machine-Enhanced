@@ -6,7 +6,6 @@ import coffe2 from '../../assets/coffe2.jpeg'
 import coffe3 from '../../assets/coffe3.jpeg'
 import arrow from '../../assets/arrow_right.png'
 import { Link } from 'react-router-dom'
-import Search from '../../components/Search/Search';
 
 
 function Results() {
@@ -107,16 +106,7 @@ function Results() {
         <h1>Results</h1>
         <div className='searching-container2'>
           <input name='search' type='text' placeholder='Search for a coffee bean' onChange={getUserQuery}/>
-          {
-            query.trim() && (
-              <div className='search-results-container2'>
-                {resultCoffee.map(result => (
-                  <Search key={result?.id} coffee={result} setQuery={setQuery}/>
-                ))}
-              </div>
-            )
-          }
-          <button className='arrow-results-btn' onClick={() => {setQuery('')}}><Link to={`/results/${query.toLowerCase()}`}><img src={arrow} alt='submit'/></Link></button>
+          <button className='arrow-results-btn'><Link to={`/results/${query.toLowerCase()}`}><img src={arrow} alt='submit'/></Link></button>
         </div>
         <div className='results-container'>
             {
@@ -129,7 +119,7 @@ function Results() {
                             <Link className='link' to={`/coffeedetails/${item?.id}`}><p>{item?.name}</p></Link>
                             <p>${item?.price}</p>
                         </div>
-                        <div className='origin'>
+                        <div>
                             <p>Origin</p>
                         </div>
                         <button><Link to={`/coffeedetails/${item?.id}`}>BUY</Link></button>

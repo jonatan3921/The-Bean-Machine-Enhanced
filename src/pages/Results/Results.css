@@ -36,20 +36,6 @@
     font-size: 18px;
 }
 
-.results-page .search-results-container2 {
-    animation: input 0.5s ease 0s 1 normal forwards;
-    background-color: none;
-    height: 255px;
-    left: 0;
-    overflow: scroll;
-    position: absolute;
-    top: 49px;
-    width: 92.6%;
-    z-index: 2;
-    border-radius: 0 0 15px 15px;
-
-}
-
 .arrow-results-btn {
     height: 58px;
     width: 58px;
@@ -66,6 +52,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.no-results {
+    font-size: 32px;
 }
 
 

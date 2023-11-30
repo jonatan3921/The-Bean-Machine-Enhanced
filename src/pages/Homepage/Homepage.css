@@ -55,18 +55,6 @@
     font-size: 18px;
 }
 
-.homepage-container .search-results-container {
-    animation: input 0.5s ease 0s 1 normal forwards;
-    background-color: none;
-    height: 125px;
-    left: 0;
-    overflow: scroll;
-    position: absolute;
-    top: 45px;
-    width: 100%;
-    z-index: 2;
-    border-radius: 0px 0px 15px 15px;
-}
 
 .arrow-btn {
     height: 58px;

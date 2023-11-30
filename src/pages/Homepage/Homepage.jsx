@@ -6,7 +6,6 @@ import coffe1 from '../../assets/coffe1.jpeg'
 import coffe2 from '../../assets/coffe2.jpeg'
 import coffe3 from '../../assets/coffe3.jpeg'
 import CoffeeCards from '../../components/CoffeeCards/CoffeeCards'
-import Search from '../../components/Search/Search';
 import { Link } from 'react-router-dom'
 function Homepage() {
   const coffeeBeansArray = [
@@ -103,15 +102,6 @@ function Homepage() {
             <h2>Coffee Bean Shop</h2>
             <div className='searching-container'>
                 <input name='search' type='text' placeholder='Search for a coffee bean' onChange={getUserQuery}/>
-                {
-                  query.trim() && (
-                    <div className='search-results-container'>
-                      {resultCoffee.map(result => (
-                        <Search key={result?.id} coffee={result} setQuery={setQuery}/>
-                      ))}
-                    </div>
-                  )
-                }
                 <button className='arrow-btn'><Link to={`/results/${query.toLowerCase()}`}><img src={arrow} alt='submit'/></Link></button>
             </div>
         </div>
